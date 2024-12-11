@@ -1,0 +1,333 @@
+body { 
+    margin:0px;
+}
+.heading{
+    background: 
+        linear-gradient(to right, rgb(255, 117, 117), rgb(222, 57, 57));
+    border-top: 2px solid rgba(0, 0, 0, 0);
+    border-left: 2px solid rgba(0, 0, 0, 0);
+    border-right: 2px solid rgba(0, 0, 0, 0);
+    border-bottom: 2px groove rgba(0, 0, 0, 0);
+    margin: auto;
+    width: auto;
+    text-align: center;
+    height: auto;
+    padding: 15px;
+ 
+  
+    
+
+
+}
+
+#heading{
+    font-family: Danfo, Arial;
+    font-size: 70px;
+    border: 2px dashed black;
+    border-radius: 25px;
+    width:fit-content;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 0.499);
+    word-wrap: break-word;
+    max-width: 1000px;
+    
+}
+
+#subheading{
+    font-family: "Roboto Slab", Arial;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+
+.list{
+    background-color: rgb(180, 252, 139);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    width: 500px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(110, 231, 122, 0.817);
+    font-family: "Roboto Slab", Arial;
+}
+
+#url{
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    padding-left: 40px;
+    margin: 10px;
+    border-radius: 50px;
+    width: fit;
+    text-align: left;
+    font-family: "Roboto Slab", Arial;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.deafult{
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    width: fit-content;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto Slab", Arial;
+
+
+}
+
+#pre{
+    font-family: "Roboto Slab", Arial;
+}
+
+
+#largeSubheading{
+    font-family: "Danfo", Arial;
+    border: 2px dashed black;
+    border-radius: 25px;
+    width:fit-content;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:25px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 0.499);
+}
+
+.tab{
+    background-color: lightgrey;
+    padding: 10px;
+    word-spacing: 10px;
+    font-family: "Roboto Slab", Arial;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    border-top: 2px groove rgba(0, 0, 0, 0);
+    border-left: 2px solid rgba(0, 0, 0, 0);
+    border-right: 2px solid rgba(0, 0, 0, 0);
+    text-decoration: none; 
+
+    
+}
+
+
+
+#tabLink{
+    color:rgba(0, 0, 0, 0.6); 
+    text-decoration: none;
+
+}
+
+
+
+#tabLink{
+    background: 
+      linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      linear-gradient(to right, rgb(255, 117, 117), rgb(194, 18, 18));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 500ms;
+}
+  
+#tabLink:hover,
+#tabLink:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+    color:black;
+}
+
+.project{
+    border-left: solid rgb(0, 166, 255) 7px; 
+    background-color: rgba(0, 166, 255, 0.169); 
+    padding:20px;
+    margin: 10px;
+    width: fit-content;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto Slab", Arial;
+}
+
+#sponge{
+    color:black;
+    background-color: aqua;
+    border: solid 5px yellow;
+    padding:14px 25px;
+    border-radius: 12px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    font-family: 'Roboto Slab', Arial;
+    text-decoration: none;
+
+    
+}
+
+#sponge:hover{
+    background-color: yellow;
+    border: solid 5px aqua;
+
+}
+
+@keyframes tab{
+    from{text-decoration: none;}
+    to{text-decoration: underline;}
+}
+
+.friends{
+    background-color: rgba(255, 255, 255, 0.364); 
+    margin: auto; 
+    margin-top: 250px; 
+    height: 300px; 
+    width: 300px; 
+    text-align: center; 
+    padding-top: 50px;
+    border-radius: 25px;
+    border: white solid 5px;
+    font-family: 'Roboto Slab', Arial;   
+    float: inline-start;
+    margin: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    flex-wrap: wrap;
+    color: black;
+}
+
+.friends:hover{
+    background:
+        linear-gradient(aqua, rgba(223, 223, 223, 0.83));
+    transform: scale(1.1);
+    transform: translateX(-1%);
+    transform:translateY(-1%);
+}
+
+.friend{
+    background-color: rgba(255, 255, 255, 0.364); 
+    margin: auto; 
+    margin-top: 250px; 
+    height: 620px; 
+    width: 1410px; 
+    text-align: center; 
+    padding-top: 50px;
+    border-radius: 25px;
+    border: white solid 5px;
+    font-family: 'Roboto Slab', Arial;   
+    float: inline-start;
+    margin: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    flex-wrap: wrap;
+
+
+    color: black;
+}
+
+#sponge-under{
+    text-underline-offset: auto;
+
+}
+
+#sponge-under:hover{
+    text-underline-offset: 5px;
+    animation-name: sponge;
+    animation-duration: 0.2s;
+    color:rgb(48, 184, 184);
+    text-shadow: 0 0 10px white;
+
+}
+
+
+
+
+#button{
+    background-color:rgb(184, 184, 184); 
+    border-radius: 5px; 
+    border: solid black;
+    padding:5px; 
+    margin:10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568); 
+    font-family:'Roboto Slab', Arial; 
+    font-size: larger;
+
+}
+
+#button:hover{
+    background-color: rgb(219, 219, 219);
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.568); 
+    
+}
+ 
+#select{
+    background-color:rgb(184, 184, 184); 
+    border-radius: 5px; 
+    border:solid black; 
+    padding:5px; 
+    margin:10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568); 
+    font-family:'Roboto Slab', Arial; 
+    font-size: larger;
+}
+
+#select:hover{
+    background-color: rgb(219, 219, 219);
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.568);    
+}
+
+#firstNo{
+    background-color:rgb(184, 184, 184); 
+    border-radius: 5px; 
+    border: solid black;
+    padding:5px; 
+    margin:10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568); 
+    font-family:'Roboto Slab', Arial; 
+    font-size: larger;
+
+}
+
+#firstNo:hover{
+    background-color: rgb(219, 219, 219);
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.568); 
+    
+}
+
+#secondNo{
+    background-color:rgb(184, 184, 184); 
+    border-radius: 5px; 
+    border: solid black;
+    padding:5px; 
+    margin:10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568); 
+    font-family:'Roboto Slab', Arial; 
+    font-size: larger;
+
+}
+
+#secondNo:hover{
+    background-color: rgb(219, 219, 219);
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.568); 
+    
+}
+
+
+#Operation{
+    background-color:rgb(184, 184, 184); 
+    border-radius: 5px; 
+    border: solid black;
+    padding:5px; 
+    margin:10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568); 
+    font-family:'Roboto Slab', Arial; 
+    font-size: larger;
+
+}
+
+#Operation:hover{
+    background-color: rgb(219, 219, 219);
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.568); 
+    
+}
